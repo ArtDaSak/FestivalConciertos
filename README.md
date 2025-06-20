@@ -1,14 +1,14 @@
-## Festival de Conciertos en Colombia
+<h1 align="center"> Festival de Conciertos</h1>
 
-*Evidencia de operaciones realizadas en MongoDB (terminal)*
+Evidencia de operaciones realizadas en MongoDB (terminal).
 
 ---
 
-### 1. Conexión y Selección de Base de Datos
+### 1. Conexión a MongoDB Shell
 
 ![Shell de MongoDB iniciado](./img/01MongoDBShellExecution.png)
 
-### 2. Creación de la Base de Datos
+### 2. Creación y Selección de la Base de Datos
 
 ![Base de datos festival\_conciertos seleccionada](./img/02CreationAndSelectionDBfestival_concerts.png)
 
@@ -61,7 +61,7 @@
 
 ### 5. Funciones en `system.js`
 
-* Archivo `system.js` cargado:
+* Archivo [system.js](./system.js) cargado:
   ![CargarSystemJS](./img/12UploadSystemJS.png)
 
 * Prueba `escenariosPorCiudad("Bogotá")`:
@@ -72,4 +72,5 @@
 
 ---
 
+>[!NOTE]
 > Todas las imágenes muestran la ejecución exitosa de cada operación en MongoDB, evidenciando el cumplimiento de los requerimientos solicitados.
